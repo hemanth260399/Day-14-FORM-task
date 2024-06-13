@@ -1,0 +1,46 @@
+form{
+    background-color:darkgray;
+    padding-left: 7px;
+    border: 1px solid black;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+     background-color: blue;
+     color: white;
+}
+table,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px 5px;
+}
+span{
+    color: red;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+    background-color:maroon ;
+}
+.flat{
+    margin: 3px 0px 10px 20px;
+    width: 20%;
+    border-radius: 6px;
+}
+.address{
+    margin: 3px 0px 10px 20px;
+    width: 50%;
+    border-radius: 6px;
+}
+.gender{
+    margin: 3px 0px 0px 17px;
+    width: 30%;
+    border-radius: 6px;
+}
+.choice_food{
+    margin: 0px 0px 10px 50px;
+}

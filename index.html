@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+    <form>
+        <h1><b>PERSONAL FORM</b></h1>
+        <div>
+            <div class="input-group p-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">FirstName</span>
+                </div>
+                <input type="text" aria-label="First name" id="Firstname" class="form-control">
+              </div>
+              <div class="input-group p-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">LastName</span>
+                </div>
+                <input type="text" aria-label="Last name" id="Lastname" class="form-control">
+              </div>
+              <form>
+                <div class="form-group  p-2">
+                  <label for="Email"><b>Email address</b></label>
+                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                </div>
+            <div class="form-group row">
+                <label for="flat no" class="col-sm-2 col-form-label"><b>Flat/House No.</b></label><br>
+                  <input type="text" class="flat" id="flat no">
+            </div>
+            <div class="form-group row">
+                <label for="Area,street,village" class="col-sm-2 col-form-label"><b>Area,street,village</b></label><br>
+                  <input type="text" class="address" id="Area,street,village">
+            </div>
+            <div class="form-group row">
+                <label for="District" class="col-sm-2 col-form-label"><b>District</b></label><br>
+                  <input type="text" class="address" id="District">
+            </div>
+            <div class="form-group row">
+                <label for="pincode" class="col-sm-2 col-form-label"><b>Pincode</b></label><br>
+                  <input type="text" class="address" maxlength="6" id="pincode">
+            </div>
+            <div class="form-group row">
+                <label for="Gender" class="col-sm-2 col-form-label"><b>Gender</b></label><br>
+                    <select name="gender" id="Gender" class="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+            </div>
+            <div>
+                <p><b>Choice of Food</b></p>
+            <div class="choice_food">
+               <div class="total-foods"> 
+                <input type="checkbox" name="poori" id="Poori" value="Poori" class="checkbox" checked>
+                <label for="Poori">Poori</label><br>
+                <input type="checkbox" name="Dosa" id="Dosa" value="Dosa" class="checkbox" checked>
+                <label for="Dosa">Dosa</label><br>
+                <input type="checkbox" name="Parotta" id="Parotta" value="Parotta" class="checkbox">
+                <label for="Parotta">Parotta</label><br>
+                <input type="checkbox" name="Briyani" id="Briyani" value="Briyani" class="checkbox">
+                <label for="Briyani">Briyani</label><br>
+                <input type="checkbox" name="Fried rice" id="Fried rice" value="Friedrice" class="checkbox">
+                <label for="Fried rice">Fried rice</label>
+              </div> 
+            </div>
+            </div>
+            <div>
+            <span>Please Choose atleast 2 out of 5 option</span>
+                <div class="form-group row">
+                    <label for="State" class="col-sm-2 col-form-label" style="font-size: 20px;"><b>State</b></label><br>
+                      <input type="text" class="address" id="State">
+                </div>
+            </div>
+            <div>
+                <div class="form-group row">
+                    <label for="Country" class="col-sm-2 col-form-label" style="font-size: 20px;"><b>Country</b></label><br>
+                      <input type="text" class="address" id="Country">
+                </div>
+            </div>
+            <div class="text-center mb-4 mt-4">
+                <button id ="buttons"type="reset" onclick="foo()">submit</button>
+            </div>
+        </div>    
+    </form>
+</div>    
+    <script src="script.js"></script>
+</body>
+</html>
